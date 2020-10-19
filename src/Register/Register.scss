@@ -1,0 +1,25 @@
+.todo-list-main-container{
+    position: fixed;
+    top: 0vw;
+    background-color: white;
+    width: 100vw;
+    height: 100vw;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Login{
+    height: 25vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.input-field{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
