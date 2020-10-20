@@ -54,7 +54,7 @@ class LoginPage extends Component {
         />
         <br />
         <button type="submit"  onClick={this.logInClickHandler}>Submit</button>
-        {this.state.loginRegisterScreenShow && this.state.email=="saireddy1209@gmail.com" && this.state.password=="123"?<div><Register/></div>:""}
+        {this.state.loginRegisterScreenShow && this.state.email==="saireddy1209@gmail.com" && this.state.password==="123"?<div><Register/></div>:""}
       </div>
     );
   };

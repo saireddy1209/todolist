@@ -88,7 +88,14 @@ class Register extends Component {
         > 
         ADD 
       </button> 
-  
+         
+      <button
+       
+        onClick = {()=>this.addItem()} 
+        > 
+        UPDATE
+      </button> 
+ 
 </div>
 </div>
 <div>
